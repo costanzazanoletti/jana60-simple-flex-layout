@@ -14,7 +14,14 @@ body {
 h1,
 h2 {
   color: #e53270;
+}
+h1 {
+  margin-top: 50px;
   margin-bottom: 20px;
+}
+h3 {
+  color: #fd8906;
+  margin-bottom: 10px;
 }
 
 /* layout */
@@ -29,6 +36,16 @@ h2 {
 .item {
   width: 32%;
   padding: 10px;
-  /* da rimuovere */
-  background-color: green;
+  text-align: center;
+  /* width: calc(100% / 3) */
+}
+
+/* item */
+.item img {
+  height: 150px;
+}
+
+/* footer */
+footer {
+  margin-top: 20px;
 }
